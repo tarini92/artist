@@ -1,3 +1,7 @@
 [submodule "themes/prologue"]
 	path = themes/prologue
 	url = https://github.com/sethmacleod/prologue.git
+[submodule "public"]
+	path = public
+	url = https://github.com/tarini92/tarini92.github.io.git
+	branch = master
