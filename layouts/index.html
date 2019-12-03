@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="/css/main.css" />
+         <link rel="shortcut icon" type="image/x-icon" href="TCLogoSmall.ico" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
 	</head>
@@ -23,7 +24,9 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="img/avatar.jpg" alt="" /></span>
+							<span class="image avatar48"><img align="middle" src="img/passport.jpg" style="width:60px;height:70px" alt="" /></span>
+                            </br>
+                            </br>
 							<h1 id="title">{{ .Site.Params.name }}</h1>
 							<p>{{ .Site.Params.description }}</p>
 						</div>
@@ -93,27 +96,27 @@
 							<header>
 								<h2>Portfolio</h2>
 							</header>
-                            <ol>
-                                <li>I've done my BE (IT)from BMSCE, Bangalore and MTech (IT) from IIIT-B, and worked in Aganitha Cognitive Solutions Pvt Ltd, for a year and half. It is an enterprise AI startup, and working there gave me a valuable perspective on the importance of data, inter-disciplinary collaboration, and the importance of a fully-rounded story and narrative to change the world around us. </li>
-                                <li>I've completed my Visharad(Bachelors') in Bharatanatyam from Kanpur, and understand the importance of the teaching the body what the mind learns, through movement. </li>
+                            <ul style="list-style:square">
+                                <li>I've done my BE (IT)from BMSCE, Bangalore and MTech (IT) from IIIT-B, and worked in <a href = "http://aganitha.ai/company/team/"><strong>Aganitha Cognitive Solutions Pvt Ltd</strong></a>, for a year and half. It is an enterprise AI startup, and working there gave me a valuable perspective on the importance of data, inter-disciplinary collaboration, and the importance of a fully-rounded story and narrative to change the world around us. </li>
+                                <li>I've completed my Visharad(Bachelors') in Bharatanatyam from Kanpur, and understand the importance of teaching the body what the mind learns, through movement. </li>
                                 <li>A penchant for langauges made me pursue German, till the B1 level, and realise how similar in roots and grammar, is it to Sanskrit.</li>
-                                <li>I've written for and starred in college plays like 'The Way Out',to raise awareness for the University ICC (Internal Complaints committee), and a street play to create awareness for food wastage </li>
-                                <li> I've authored the blog 'The Tea for Thought'; it's a collection of my short stories, poems. (Hindi and English)
+                                <li>I've written for and starred in college plays like <a href ="https://www.youtube.com/watch?v=hDHLqMbq_Ac" ><strong>'The Way Out'</strong></a>,to raise awareness for the University ICC (Internal Complaints committee), and a street play to create awareness for food wastage </li>
+                                <li> I've authored the blog <a href="https://theteaforthought.com/"><strong>'The Tea for Thought'</strong></a>; it's a collection of my short stories and poems. (Hindi and English)
                                 <li>I wrote a script, called 'Roses' for the Indian Film Project Scriptwriting challenge and got shortlisted in the top 50, from submissions across the country. </li>
-                                <li>I've started a comic strip called Laali Pooli on Instagram, which features inane, yet, funny chatter that transpires between the main character, Laali Pooli and the people around her, as a result of hyper neurotic mental dialogue.
-                                <li>I'm an aspiring comedian and a comedic poet, and have performed at venues in various open mic events, including IIM-B. </li>
+                                <li>I've started a comic strip called Laali Pooli on Instagram, which features inane, yet, funny chatter that transpires between the main character, Laali Pooli and the people around her, as a result of her neurotic mental dialogue.
+                                <li>I'm an aspiring comedian and a comedic poet, and have performed at venues in various open mic events, including, but not limited to IIM-B. </li>
                                 
                                 <li>The ICSE/ISC board education blessed me with a many a thing, not least of which is, pointwise explanatations.
                                 
                                 
-                            </ol>
+                            </ul>
 
 
 
 
               <div class="row">
                 <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio1 }} 
+                  {{ range .Site.Params.portfolio1 }}
                   <article class="item">
                     <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
                     <header>
@@ -139,7 +142,7 @@
                   <article class="item">
                     <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
                     <header>
-                      <h3>{{ .title }}</h3>
+                        <h3>{{ .title }}</h3>
                     </header>
                   </article>
                   {{ end }}
@@ -158,9 +161,9 @@
 								<h2>Who?Me?</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="img/about.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="img/bundi_tea_for_thought_thumbnail.jpg" align="left" style="width:500px;height:700px;" alt="" /></a>
 
-							<p> Writing code was my bread and butter, art and literature are my cheese and wine. I work my compulsive anxiety by swallowing life and regurgitating words, in form of poetry or comedy, based on circumstantial ease. I might scoff at the idea of God, but still believe he would have danced madly while creating this beautiful mess.I house many contradictions, because a person must be only put in a box, when dead.</p>
+							<p> Writing code was my bread and butter, art and literature are my cheese and wine. I work my compulsive anxiety by swallowing life and regurgitating words, in form of poetry or comedy, based on circumstantial ease. I might scoff at the idea of God, but still believe he would have danced madly while creating this beautiful mess.I house many contradictions, because a person must only be put in a box, when dead.</p>
 
 						</div>
 					</section>
@@ -175,7 +178,7 @@
 
 							<p>Should the spirit move you, or you feel we could collaborate on any piece of orchestrated insanity, hit me up, and I promise I'll reply without getting distracted more than twice, since that's the best one can vouch for, these days.</p>
 
-							<form method="post" action="#">
+							<form method="post" action="https://formspree.io/mzbzvbkw" method="POST">
 								<div class="row">
 									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
 									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>

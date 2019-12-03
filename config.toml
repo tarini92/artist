@@ -4,14 +4,19 @@ baseurl = "http://example.org/"
 theme = "prologue"
 
 [params]
-  name = "Tarini Chandrashekhar"
+  name = "     Tarini Chandrashekhar"
   description = "Engineer,dancer,poet,speaker"
   copyright = "Untitled."
 
 [[params.social]]
-  medium = "twitter"
-  icon = "twitter"
-  link = "#"
+medium = "instagram"
+icon = "instagram"
+link = "https://www.instagram.com/beentherepunthat/"
+
+[[params.social]]
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/tarini-chandrashekhar-79050772/"
 
 [[params.social]]
   medium = "facebook"
@@ -24,49 +29,53 @@ theme = "prologue"
   link = "https://github.com/tarini92"
 
 
-[[params.social]]
-  medium = "email"
-  icon = "envelope"
-  link = "#"
 
 # Portfolio column one
 
 [[params.portfolio1]]
-  title = "Ipsum Feugiat"
+  title = "Hosting Yamini 2017 (A dawn to dusk classical event)"
   alt = ""
-  source = "img/pic02.jpg"
+  source = "img/host.JPG"
   url = "#"
 
 [[params.portfolio1]]
-  title = "Rhoncus Semper"
+  title = "A Modern Classical Dance Fusion"
   alt = ""
-  source = "img/pic03.jpg"
-  url = "#"
+  source = "img/dance.jpg"
+  url = "https://youtu.be/B2GNlYATw6Q?t=705"
 
 # Portfolio column two
 
 [[params.portfolio2]]
-  title = "Magna Nullam"
+  title = "Open mic at Dialogues cafe, Koramangala."
   alt = ""
-  source = "img/pic04.jpg"
-  url = "#"
+  source = "img/dialogues.jpg"
+  url = "https://www.youtube.com/watch?v=zfn96oVqPkc"
 
 [[params.portfolio2]]
-  title = "Natoque Vitae"
+  title = "Laali Pooli"
   alt = ""
-  source = "img/pic05.jpg"
-  url = "#"
+  source = "img/LPLogo.png"
+  url = "https://www.instagram.com/laalipooli/"
+
+[[params.portfolio2]]
+title = "Conducted a fun theatre workshop for a Hyderabad Government school"
+alt = ""
+source = "img/children.jpg"
+url = "#"
+
+
 
 # Portfolio column 3
 
 [[params.portfolio3]]
-  title = "Dolor Penatibus"
+  title = "The Way Out"
   alt = ""
-  source = "img/pic06.jpg"
-  url = "#"
+  source = "img/wayout.JPG"
+  url = "https://www.youtube.com/watch?v=ualpyf-3YCc"
 
 [[params.portfolio3]]
-  title = "Orci Convallis"
+  title = "Spreading awareness about the menstrual cups."
   alt = ""
-  source = "img/pic07.jpg"
-  url = "#"
+  source = "img/menstrualcup.jpg"
+  url = "https://www.instagram.com/p/B4RWio1gEqp/?utm_source=ig_web_copy_link"
