@@ -1,12 +1,12 @@
 languageCode = "en-us"
-title = "Prologue"
+title = "Tarini"
 baseurl = "http://example.org/"
 theme = "prologue"
 
 [params]
   name = "     Tarini Chandrashekhar"
   description = "Engineer,dancer,poet,speaker"
-  copyright = "Untitled."
+  copyright = "tarini"
 
 [[params.social]]
 medium = "instagram"
