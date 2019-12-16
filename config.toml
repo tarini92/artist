@@ -55,7 +55,7 @@ link = "https://www.instagram.com/beentherepunthat/"
 [[params.portfolio2]]
   title = "Laali Pooli"
   alt = ""
-  source = "img/LPLogo.png"
+  source = "img/LPLogoInsta.jpg"
   url = "https://www.instagram.com/laalipooli/"
 
 [[params.portfolio2]]
